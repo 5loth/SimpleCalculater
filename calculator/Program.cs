@@ -17,7 +17,7 @@ namespace calculator
 
 
                 double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
-                Console.WriteLine();
+                Console.WriteLine(result);
             }
             catch (Exception ex)
             {      // in real world app we log exceptions

@@ -5,7 +5,7 @@ using System.Text;
 namespace calculator
 {
     public class CalculatorEngine
-    {
+    {     
         public double Calculate (string Operation, double firstNumber, double secondNumber)
         {
             double result;
@@ -31,7 +31,7 @@ namespace calculator
                     throw new InvalidOperationException("specifyoperation PLZ.");   
             }
             return result;
-
-        }
+            
+        }    
     }
 }
